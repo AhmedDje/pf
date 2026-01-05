@@ -396,7 +396,7 @@
                         
                             emailjs.sendForm('service_zwxofca', 'template_7fgvllk', this)
                               .then(() => {
-                                formMsg.innerText = "تم إرسال الرسالة بنجاح!";
+                                formMsg.innerText = "Message sent successfully!";
                                 formMsg.style.color = "white";
                                 formMsg.style.font = "inherit";
                         
@@ -405,7 +405,7 @@
                                 setTimeout(() => { formMsg.innerText = ""; }, 3000);
                               })
                               .catch((error) => {
-                                formMsg.innerText = "حدث خطأ أثناء الإرسال، يرجى المحاولة لاحقًا.";
+                                formMsg.innerText = "An error occurred. Please try again later.";
                                 formMsg.style.color = "red";
                                 formMsg.style.font = "inherit";
                         
