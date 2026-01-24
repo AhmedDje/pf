@@ -1766,8 +1766,7 @@ h5.preloader-text::after {
   top: 0;
   width: 450px;
   height: 100%;
-  top: 0 !important;
-  padding-top: 0 !important;
+  padding-top: 100px !important;
   -webkit-transform: translateX(calc(100% + 80px));
   -moz-transform: translateX(calc(100% + 80px));
   -ms-transform: translateX(calc(100% + 80px));
