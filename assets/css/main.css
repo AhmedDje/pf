@@ -49,8 +49,8 @@ body {
   color: var(--text);
   background-color: var(--body);
   text-transform: uppercase;
-  padding: 0;
-  margin: 1px;
+  padding: 10px;
+  margin: 10px;
   overflow-x: hidden;
 }
 @media (max-width: 575px) {
