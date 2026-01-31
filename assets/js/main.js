@@ -316,38 +316,37 @@
       Project Slider Js Start
     ================================ */
 
-    if($('.project-slider-555').length > 0) {
-        const projectSlider555 = new Swiper(".project-slider-555", {
-            spaceBetween: 30,
-            speed: 1300,
-            loop: true,
-            //centeredSlides: true,
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".array-prev",
-                prevEl: ".array-next",
-            },
-            breakpoints: {
-               
-                991: {
-                    slidesPerView: 2,
-                },
-                767: {
-                    slidesPerView: 1.6,
-                },
-                575: {
-                    slidesPerView: 1.1,
-                },
-                0: {
-                    slidesPerView: 1.1,
-                },
-            },
-        });
-    }
-
+	if ($('.project-slider-555').length > 0) {
+	    const projectSlider555 = new Swiper(".project-slider-555", {
+	        spaceBetween: 30,
+	        speed: 1300,
+	        loop: true,
+	        slidesPerView: 2,
+	        slidesPerGroup: 1,
+	        autoplay: {
+	            delay: 2000,
+	            disableOnInteraction: false,
+	        },
+	        navigation: {
+	            nextEl: ".array-prev",
+	            prevEl: ".array-next",
+	        },
+	        breakpoints: {
+	            991: {
+	                slidesPerView: 2,
+	            },
+	            767: {
+	                slidesPerView: 1.6,
+	            },
+	            575: {
+	                slidesPerView: 1.1,
+	            },
+	            0: {
+	                slidesPerView: 1.1,
+	            },
+	        },
+	    });
+	}
 
     if($('.testimonial-slider-2').length > 0) {
         const testimonialSlider2 = new Swiper(".testimonial-slider-2", {
