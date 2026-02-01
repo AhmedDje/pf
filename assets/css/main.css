@@ -2858,6 +2858,11 @@ h5.preloader-text::after {
   padding: 60px 0;
 }
 
+.brand-section.section-padding {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /*---------------------------------------
 05. Sections
 ---------------------------------------*/
