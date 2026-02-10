@@ -332,8 +332,8 @@
 	            disableOnInteraction: false,
 	        },
 	        navigation: {
-	            nextEl: ".expertise-next",
-	            prevEl: ".expertise-prev",
+	            nextEl: ".array-next",
+	            prevEl: ".array-prev",
 	        },
 	        breakpoints: {
 	            991: { slidesPerView: 2 },
